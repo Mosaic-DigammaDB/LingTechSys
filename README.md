@@ -1,11 +1,11 @@
 
 # LingTechSys
-## Preview 
+### Preview 
 
 This repository contains neither executable code nor 
 data.  To see the latest developments for CR2 
 (the Cross-Disciplinary Repository for Covid-19 Research) 
-please refer to the Mosaic-`DigammaDB`/CRCR repository.
+please refer to the Mosaic-DigammaDB/CRCR repository.
 
 The purpose of this repository is to illustrate the 
 structure of data sets generated with 
@@ -17,19 +17,19 @@ Programmers or organizations who would like to
 use these tools for their own projects 
 are invited to contact us for more information.
 
-**`DigammaDB`**
+##DigammaDB##
 -------------
-`DigammaDB` is a `C++` Hypergraph Database Engine.   This 
+**DigammaDB** is a `C++` Hypergraph Database Engine.   This 
 engine is designed to employ a similar interface as 
 found in existing graph/hypergraph databases or libraries, 
 such as HyperGraphDB, WhiteDB, and HgLib (so that code and 
 coding techniques applicable to these projects can be 
-adapted for `DigammaDB`).  In the implemention used for 
-CR2, `DigammaDB` employs WhiteDB for the raw data storage.
+adapted for **DigammaDB**).  In the implemention used for 
+CR2, **DigammaDB** employs WhiteDB for the raw data storage.
 
-An important feature of `DigammaDB` is the Hypergraph 
+An important feature of **DigammaDB** is the Hypergraph 
 Exchange Format (`HGXF`), which is used to serialize 
-the information contained in `DigammaDB` databases.  
+the information contained in **DigammaDB** databases.  
 `HGXF` can also be employed as a general-purpose serialization 
 format, especially for scientific data.
 
@@ -41,12 +41,12 @@ Complimenting `HGXF` is the Annotation Exchange Format
 `AXF` annotations can point to fragments of a 
 data archive or database which are identified by `HGXF`.
 
-`DigammaDB`, `HGXF`, and `AXF` are described in greater 
+**DigammaDB**, `HGXF`, and `AXF` are described in greater 
 detail in a prospectus which can be downloaded 
 from the CRCR repository. 
 
-**Dataset Creator**
--------------------
+##Dataset Creator##
+---
 
 Dataset Creator is a tool (available as a `Qt` Creator Plugin) 
 for building institutional and/or research data sets.  
@@ -91,7 +91,8 @@ interoperate with domain-specific scientific
 applications to visualize research data 
 discussed or analyzed in a particular manuscript.
 
-**NA3**
+##NA3##
+---
 
 `NA3`, or `NCN/A3R`, which stands for "Native 
 Cloud-Native/Application-as-a-Resource", is a 
@@ -139,7 +140,8 @@ for testing and development.  In `NA3`, `NCN` servers
 host `A3R` applications, which may in turn employ 
 `NCN` instances as cloud back-ends.
 
-**VersatileUX**
+##VersatileUX##
+---
 
 VersatileUX is a suite of demo Digamma-applications which 
 document how DigammaDB may be employed in different 
@@ -150,7 +152,7 @@ Aside from documenting how DigammaDB may be used, programmers
 might find VersatileUX helpful for starting new projects.
 
 Whether or now developers adopt DigammaDB, some of VersatileUX's 
-GUI classes may be useful for *Qt* projects.  Some basic GUI code 
+GUI classes may be useful for **Qt** projects.  Some basic GUI code 
 relevant to the visual design and layout of components used 
 by VersatileUX applications is included in this preview.  
  
