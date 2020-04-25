@@ -18,6 +18,7 @@ use these tools for their own projects
 are invited to contact us for more information.
 
 **DigammaDB**
+-------------
 DigammaDB is a C++ Hypergraph Database Engine.   This 
 engine is designed to employ a similar interface as 
 found in existing graph/hypergraph databases or libraries, 
@@ -31,6 +32,17 @@ Exchange Format (HGXF), which is used to serialize
 the information contained in DigammaDB databases.  
 HGXF can also be employed as a general-purpose serialization 
 format, especially for scientific data.
+
+Complimenting HGXF is the Annotation Exchange Format 
+(AXF) which can be used associate segments of documents 
+(e.g., academic publications) with data elements 
+(and/or concepts defined in a controled vocabulary).  
+HGXF and AXF are designed to interoperate, in that 
+AXF annotations can point to fragments of a 
+data archive or database which are identified by HGXF.
+
+**Dataset Creator**
+-------------------
 
 
 
