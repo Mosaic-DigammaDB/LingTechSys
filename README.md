@@ -127,11 +127,35 @@ added to an `NA3` archive or service, the
 to file types and data formats, library 
 requirements, inter-application networking protocols, 
 and other documentation helping researchers or 
-developers to acquire and use the application.  
-Via Digamma-application, much of this information 
+developers to acquire and use the application.  Via Digamma-application, much of this information 
 can be obtained from the application database.
 
 The Native Cloud/Native platform is a library for 
 creating `Qt`-based cloud services, canonically 
-`HTTP` 
+`HTTP` servers that can be executed in a containerized 
+environment.  In general these services are also non-GUI
+`Qt` applications, so they can be run as local executables 
+for testing and development.  In `NA3`, `NCN` servers 
+host `A3R` applications, which may in turn employ 
+`NCN` instances as cloud back-ends.
+
+**VersatileUX**
+
+VersatileUX is a suite of demo Digamma-applications which 
+document how DigammaDB may be employed in different 
+programming domains (biomed, e-commerce, and so forth).  
+The VersatileUX demos are standalone desktop applications 
+that instantiate and read data from DigammaDB instances.  
+Aside from documenting how DigammaDB may be used, programmers 
+might find VersatileUX helpful for starting new projects.
+
+Whether or now developers adopt DigammaDB, some of VersatileUX's 
+GUI classes may be useful for *Qt* projects.  Some basic GUI code 
+relevant to the visual design and layout of components used 
+by VersatileUX applications is included in this preview.  
+ 
+
+
+
+
 
