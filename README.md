@@ -16,6 +16,7 @@ which are used in the curation of CR2.
 Programmers or organizations who would like to 
 use these tools for their own projects 
 are invited to contact us for more information.
+
 ---
 
 ## DigammaDB ##
@@ -56,6 +57,7 @@ technology would exhibit.
 detail in a prospectus which can be downloaded 
 from the CRCR repository --- see https://github.com/Mosaic-DigammaDB/CRCR.  Or 
 download the file directly from http://raw.githubusercontent.com/Mosaic-DigammaDB/CRCR/master/cr2.pdf 
+
 ---
 
 ## Dataset Creator ##
@@ -102,6 +104,7 @@ PDF viewer might include networking code to
 interoperate with domain-specific scientific 
 applications to visualize research data 
 discussed or analyzed in a particular manuscript.
+
 ---
 
 ## NA3 ##
@@ -152,6 +155,7 @@ environment.  In general these services are also non-GUI
 for testing and development.  In **NA3**, **NCN** servers 
 host **A3R** applications, which may in turn employ 
 **NCN** instances as cloud back-ends.
+
 ---
 
 ## VersatileUX ##
@@ -168,5 +172,4 @@ Whether or now developers adopt DigammaDB, some of VersatileUX's
 GUI classes may be useful for **Qt** projects.  Some basic GUI code 
 relevant to the visual design and layout of components used 
 by VersatileUX applications is included in this preview.
-
 
