@@ -29,15 +29,15 @@ CR2, **DigammaDB** employs WhiteDB for the raw data storage.
 
 An important feature of **DigammaDB** is the Hypergraph 
 Exchange Format (**HGXF**), which is used to serialize 
-the information contained in **DigammaDB** databases.  
-**HGXF** can also be employed as a general-purpose serialization 
+the information contained in **DigammaDB** databases.  **HGXF** 
+can also be employed as a general-purpose serialization 
 format, especially for scientific data.
 
 Complimenting **HGXF** is the Annotation Exchange Format 
 (**AXF**) which can be used associate segments of documents 
 (e.g., academic publications) with data elements 
-(and/or concepts defined in a controled vocabulary).  
-**HGXF** and **AXF** are designed to interoperate, in that 
+(and/or concepts defined in a controled vocabulary).  **HGXF** 
+and **AXF** are designed to interoperate, in that 
 **AXF** annotations can point to fragments of a 
 data archive or database which are identified by **HGXF**.
 
@@ -45,8 +45,8 @@ Examples of data sets created with early/preliminary versions of
 Dataset Creator are duplicated in the Mosaic-DigammaDB account, 
 specifically https://github.com/Mosaic-DigammaDB/SSQM, 
 https://github.com/Mosaic-DigammaDB/AMIF, and 
-https://github.com/Mosaic-DigammaDB/HandbookPragmatics.  
-These are provisional examples used to demonstrate 
+https://github.com/Mosaic-DigammaDB/HandbookPragmatics.  These 
+are provisional examples used to demonstrate 
 implementation concepts, rather than polished examples 
 of research data sets, but they can suggest some of 
 the conventions which a typical data set employing this 
@@ -54,14 +54,15 @@ technology would exhibit.
 
 **DigammaDB**, **HGXF**, and **AXF** are described in greater 
 detail in a prospectus which can be downloaded 
-from the CRCR repository --- see https://github.com/Mosaic-DigammaDB/CRCR.
+from the CRCR repository --- see https://github.com/Mosaic-DigammaDB/CRCR.  Or 
+download the file directly from http://raw.githubusercontent.com/Mosaic-DigammaDB/CRCR/master/CR2.pdf 
 
 ## Dataset Creator ##
 ---
 
 Dataset Creator is a tool (available as a **Qt** Creator Plugin) 
-for building institutional and/or research data sets.  
-Dataset Creator can be used to generate open-access 
+for building institutional and/or research data sets.  Dataset 
+Creator can be used to generate open-access 
 research objects that are linked to scientific 
 publications.  It can also be used to build sample 
 data sets which an organization may use internally 
@@ -130,8 +131,8 @@ One way to implement software conforming to
 the **A3R** model is to design applications to 
 be instances of the "Digamma-application" protocol, 
 which is analogous in the DigammaDB context to 
-the HGApplication interface for HyperGraphDB.  
-Using DigammaDB provides the data management 
+the HGApplication interface for HyperGraphDB.  Using 
+DigammaDB provides the data management 
 and type-system logic which forms the backbone 
 of the resource model encoded in **A3R**.  When 
 added to an **NA3** archive or service, the 
@@ -139,7 +140,8 @@ added to an **NA3** archive or service, the
 to file types and data formats, library 
 requirements, inter-application networking protocols, 
 and other documentation helping researchers or 
-developers to acquire and use the application.  Via Digamma-application, much of this information 
+developers to acquire and use the application.  Via 
+Digamma-application, much of this information 
 can be obtained from the application database.
 
 The Native Cloud/Native platform is a library for 
@@ -156,19 +158,15 @@ host **A3R** applications, which may in turn employ
 
 VersatileUX is a suite of demo Digamma-applications which 
 document how DigammaDB may be employed in different 
-programming domains (biomed, e-commerce, and so forth).  
-The VersatileUX demos are standalone desktop applications 
-that instantiate and read data from DigammaDB instances.  
-Aside from documenting how DigammaDB may be used, programmers 
+programming domains (biomed, e-commerce, and so forth).  The 
+VersatileUX demos are standalone desktop applications 
+that instantiate and read data from DigammaDB instances.  Aside 
+from documenting how DigammaDB may be used, programmers 
 might find VersatileUX helpful for starting new projects.
 
 Whether or now developers adopt DigammaDB, some of VersatileUX's 
 GUI classes may be useful for **Qt** projects.  Some basic GUI code 
 relevant to the visual design and layout of components used 
-by VersatileUX applications is included in this preview.  
- 
-
-
-
+by VersatileUX applications is included in this preview.
 
 
