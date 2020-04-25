@@ -16,9 +16,9 @@ which are used in the curation of CR2.
 Programmers or organizations who would like to 
 use these tools for their own projects 
 are invited to contact us for more information.
+---
 
 ## DigammaDB ##
----
 **DigammaDB** is a `C++` Hypergraph Database Engine.   This 
 engine is designed to employ a similar interface as 
 found in existing graph/hypergraph databases or libraries, 
@@ -55,10 +55,10 @@ technology would exhibit.
 **DigammaDB**, **HGXF**, and **AXF** are described in greater 
 detail in a prospectus which can be downloaded 
 from the CRCR repository --- see https://github.com/Mosaic-DigammaDB/CRCR.  Or 
-download the file directly from http://raw.githubusercontent.com/Mosaic-DigammaDB/CRCR/master/CR2.pdf 
+download the file directly from http://raw.githubusercontent.com/Mosaic-DigammaDB/CRCR/master/cr2.pdf 
+---
 
 ## Dataset Creator ##
----
 
 Dataset Creator is a tool (available as a **Qt** Creator Plugin) 
 for building institutional and/or research data sets.  Dataset 
@@ -102,9 +102,9 @@ PDF viewer might include networking code to
 interoperate with domain-specific scientific 
 applications to visualize research data 
 discussed or analyzed in a particular manuscript.
+---
 
 ## NA3 ##
----
 
 **NA3**, or **NCN/A3R**, which stands for "Native 
 Cloud-Native/Application-as-a-Resource", is a 
@@ -152,9 +152,9 @@ environment.  In general these services are also non-GUI
 for testing and development.  In **NA3**, **NCN** servers 
 host **A3R** applications, which may in turn employ 
 **NCN** instances as cloud back-ends.
+---
 
 ## VersatileUX ##
----
 
 VersatileUX is a suite of demo Digamma-applications which 
 document how DigammaDB may be employed in different 
