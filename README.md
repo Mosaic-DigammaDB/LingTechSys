@@ -21,19 +21,19 @@ are invited to contact us for more information.
 
 ## THQL and DigammaDB ##
 **THQL**, or Transparent Hypergraph Query Language, 
-is a protocol for manipulating hypergraph data.  **THQL** 
+is a protocol for manipulating hypergraph data.  THQL 
 is designed to work with database engines 
 that can be distributed in source-code fashion and 
 included as source-code files in other projects.  Such 
 engines are "transparent" in the sense that developers 
 can fully examine all of their data persistence and 
-quary processing logic.  It is not requisite that 
+query processing logic.  It is not requisite that 
 database engines recognize a special query language; 
-it is also possible to implement a **THQL** interface 
+it is possible instead to implement a THQL interface 
 in the same programming language as the database engine 
 itself (although the most flexible option is to support 
 both in-code queries and separate query files or 
-strings).  Because **THQL** query processors 
+strings).  Because THQL query processors 
 (and parsers, in the case of a separate query language) 
 are expected to be deployed in source-code form within 
 larger projects, they can be tailored to the 
@@ -42,29 +42,29 @@ by the encompassing application.
 
 **DigammaDB** is a `C++` Hypergraph Database Engine which 
 serves as a demonstration and Reference Implementation 
-for **THQL** (although a **THQL** interface could be customized 
-for pre-existing engines as well).  **DigammaDB** 
-engine is designed to employ a similar interface as 
+for THQL (although a THQL interface could be customized 
+for pre-existing engines as well).  DigammaDB 
+is designed to employ a similar interface as 
 found in existing graph/hypergraph databases or libraries, 
 such as HyperGraphDB, WhiteDB, and HgLib (so that code and 
 coding techniques applicable to these projects can be 
-adapted for **DigammaDB**).  In the implemention used for 
-CR2, **DigammaDB** employs WhiteDB for the raw data storage.
+adapted for DigammaDB).  In the implemention used for 
+CR2, DigammaDB employs WhiteDB for the raw data storage.
 
-An important feature of **THQL** is the Hypergraph 
+An important feature of THQL is the Hypergraph 
 Exchange Format (**HGXF**), which is used to serialize 
-the information contained in **DigammaDB** databases 
-(or other engines implementing **THQL**).  **HGXF** 
+the information contained in DigammaDB databases 
+(or other engines implementing THQL).  HGXF 
 can also be employed as a general-purpose serialization 
 format, especially for scientific data.
 
-Complimenting **HGXF** is the Annotation Exchange Format 
+Complementing HGXF is the Annotation Exchange Format 
 (**AXF**) which can be used associate segments of documents 
 (e.g., academic publications) with data elements 
-(and/or concepts defined in a controled vocabulary).  **HGXF** 
-and **AXF** are designed to interoperate, in that 
-**AXF** annotations can point to fragments of a 
-data archive or database which are identified by **HGXF**.
+(and/or concepts defined in a controled vocabulary).  HGXF 
+and AXF are designed to interoperate, in that 
+AXF annotations can point to fragments of a 
+data archive or database which are identified by HGXF.
 
 Examples of data sets created with early/preliminary versions of 
 Dataset Creator are duplicated in the Mosaic-DigammaDB account, 
@@ -77,7 +77,7 @@ of research data sets, but they can suggest some of
 the conventions which a typical data set employing this 
 technology would exhibit.
 
-**DigammaDB**, **HGXF**, and **AXF** are described in greater 
+DigammaDB, HGXF, and AXF are described in greater 
 detail in a prospectus which can be downloaded 
 from the CRCR repository --- see https://github.com/Mosaic-DigammaDB/CRCR.  Or 
 download the file directly from http://raw.githubusercontent.com/Mosaic-DigammaDB/CRCR/master/cr2.pdf 
@@ -86,7 +86,7 @@ download the file directly from http://raw.githubusercontent.com/Mosaic-DigammaD
 
 ## Dataset Creator ##
 
-Dataset Creator is a tool (available as a **Qt** Creator Plugin) 
+Dataset Creator is a tool (available as a Qt Creator Plugin) 
 for building institutional and/or research data sets.  Dataset 
 Creator can be used to generate open-access 
 research objects that are linked to scientific 
@@ -109,12 +109,12 @@ papers for publication.  This system employs a
 custom markup language to generate LaTeX files, 
 and also provides machine-readable archives of 
 publication texts using a new Hypergraph Text 
-Encoding Protocol (**HTXN**).  **HTXN**, **HGXF**, and **AXF** 
+Encoding Protocol (**HTXN**).  HTXN, HGXF, and AXF 
 work in consort to provide publication repositories 
 tailored to Text and Data Mining (TDM) while also 
 generating interactive PDF files for digital 
-publication.  In particular, the **HTXN**/LaTeX 
-generators also produce **HGXF** code containing 
+publication.  In particular, the HTXN/LaTeX 
+generators also produce HGXF code containing 
 positional and viewport data which is 
 relevant both for annotations and for customizing 
 PDF viewers to incorporate annotations and semantic 
@@ -139,7 +139,7 @@ framework for hosting native applications via
 cloud services.  "Native application" in this 
 context typically means `C++` desktop-style 
 applications that can be distributed in source-code 
-fashion.  The **A3R** (Application-as-a-Resource) 
+fashion.  The A3R (Application-as-a-Resource) 
 model involves annotating application projects 
 with information that permits the application 
 overall to be treated as an integral digital 
@@ -149,21 +149,21 @@ application resource would be customized
 software implemented to access, manipulate, and 
 visualize information published in a 
 research data set.  Another potential 
-**A3R** use-case would be hosting application code 
+A3R use-case would be hosting application code 
 along with domain-specific data within a 
 heterogeneous information space, such as a 
 Semantic Data Lake.
 
 One way to implement software conforming to 
-the **A3R** model is to design applications to 
+the A3R model is to design applications to 
 be instances of the "Digamma-application" protocol, 
 which is analogous in the DigammaDB context to 
 the HGApplication interface for HyperGraphDB.  Using 
 DigammaDB provides the data management 
 and type-system logic which forms the backbone 
-of the resource model encoded in **A3R**.  When 
-added to an **NA3** archive or service, the 
-**A3R** model represents information related 
+of the resource model encoded in A3R.  When 
+added to an NA3 archive or service, the 
+A3R model represents information related 
 to file types and data formats, library 
 requirements, inter-application networking protocols, 
 and other documentation helping researchers or 
@@ -172,13 +172,13 @@ Digamma-application, much of this information
 can be obtained from the application database.
 
 The Native Cloud/Native platform is a library for 
-creating **Qt**-based cloud services, canonically 
-**HTTP** servers that can be executed in a containerized 
+creating Qt-based cloud services, canonically 
+HTTP servers that can be executed in a containerized 
 environment.  In general these services are also non-GUI
-**Qt** applications, so they can be run as local executables 
-for testing and development.  In **NA3**, **NCN** servers 
-host **A3R** applications, which may in turn employ 
-**NCN** instances as cloud back-ends.
+Qt applications, so they can be run as local executables 
+for testing and development.  In NA3, NCN servers 
+host A3R applications, which may in turn employ 
+NCN instances as cloud back-ends.
 
 ---
 
@@ -193,7 +193,7 @@ from documenting how DigammaDB may be used, programmers
 might find VersatileUX helpful for starting new projects.
 
 Whether or now developers adopt DigammaDB, some of VersatileUX's 
-GUI classes may be useful for **Qt** projects.  Some basic GUI code 
+GUI classes may be useful for Qt projects.  Some basic GUI code 
 relevant to the visual design and layout of components used 
 by VersatileUX applications is included in this preview.
 
