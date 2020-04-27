@@ -19,8 +19,31 @@ are invited to contact us for more information.
 
 ---
 
-## DigammaDB ##
-**DigammaDB** is a `C++` Hypergraph Database Engine.   This 
+## THQL and DigammaDB ##
+**THQL**, or Transparent Hypergraph Query Language, 
+is a protocol for manipulating hypergraph data.  **THQL** 
+is designed to work with database engines 
+that can be distributed in source-code fashion and 
+included as source-code files in other projects.  Such 
+engines are "transparent" in the sense that developers 
+can fully examine all of their data persistence and 
+quary processing logic.  It is not requisite that 
+database engines recognize a special query language; 
+it is also possible to implement a **THQL** interface 
+in the same programming language as the database engine 
+itself (although the most flexible option is to support 
+both in-code queries and separate query files or 
+strings).  Because **THQL** query processors 
+(and parsers, in the case of a separate query language) 
+are expected to be deployed in source-code form within 
+larger projects, they can be tailored to the 
+data models, algorithms, or object structures provided 
+by the encompassing application.
+
+**DigammaDB** is a `C++` Hypergraph Database Engine which 
+serves as a demonstration and Reference Implementation 
+for **THQL** (although a **THQL** interface could be customized 
+for pre-existing engines as well).  **DigammaDB** 
 engine is designed to employ a similar interface as 
 found in existing graph/hypergraph databases or libraries, 
 such as HyperGraphDB, WhiteDB, and HgLib (so that code and 
@@ -28,9 +51,10 @@ coding techniques applicable to these projects can be
 adapted for **DigammaDB**).  In the implemention used for 
 CR2, **DigammaDB** employs WhiteDB for the raw data storage.
 
-An important feature of **DigammaDB** is the Hypergraph 
+An important feature of **THQL** is the Hypergraph 
 Exchange Format (**HGXF**), which is used to serialize 
-the information contained in **DigammaDB** databases.  **HGXF** 
+the information contained in **DigammaDB** databases 
+(or other engines implementing **THQL**).  **HGXF** 
 can also be employed as a general-purpose serialization 
 format, especially for scientific data.
 
